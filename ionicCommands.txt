@@ -1,0 +1,83 @@
+ionic serve // Creates a new project and serves it on localhost:8100
+ionic build // Builds the project
+ionic emulate // Deploys the project to an emulator
+ionic run // Deploys the project to a connected device
+ionic platform add // Adds a new platform to the project
+ionic resources // Generates icon and splash screen resources
+ionic state // Saves and restores the state of the project's plugins and platforms
+ionic plugin add // Adds a new plugin to the project
+ionic plugin list // Lists the installed plugins
+ionic plugin rm // Removes a plugin from the project
+ionic serve --lab // Serves the project in a desktop browser
+ionic setup sass // Sets up the project to use Sass CSS precompilation
+ionic setup bower // Sets up the project to use Bower package management
+ionic io init // Initializes the project for Ionic.io services
+ionic io push // Pushes the project to the Ionic.io cloud
+ionic io upload // Uploads a new snapshot of the project to the Ionic.io cloud
+ionic io share
+ionic cap add ios // Adds the iOS platform to the project
+ionic cap add android // Adds the Android platform to the project
+ionic cap open ios // Opens the iOS project in Xcode
+ionic cap open android // Opens the Android project in Android Studio
+ionic cap sync // Updates the native project files to the latest version of the Capacitor runtime
+ionic cap copy // Copies the web assets to the native project
+ionic cap open // Opens the native project in the default IDE
+ionic cap run ios // Builds the native iOS project and opens it in Xcode
+ionic cap run android // Builds the native Android project and opens it in Android Studio
+ionic cap update // Updates the Capacitor runtime dependencies
+ionic cap doctor // Checks the project for common issues
+ionic info // Prints debugging information about the project
+ionic generate // Generates and/or modifies files based on a schematic
+ionic lint // Lints the project
+ionic test // Runs unit tests in a project
+ionic e2e // Runs end-to-end tests in a project
+ionic build --prod // Builds the project for production
+ionic serve --prod // Serves the project in production mode
+ionic cordova prepare // Prepares the native iOS and Android projects
+ionic cordova compile // Compiles the native iOS and Android projects
+ionic cordova build // Builds the native iOS and Android projects
+ionic cordova run // Runs the native iOS and Android projects
+ionic cordova emulate // Deploys the native iOS and Android projects to emulators
+ionic cordova platform add // Adds a new platform to the project
+ionic cordova platform remove // Removes a platform from the project
+ionic cordova plugin add // Adds a new plugin to the project
+ionic cordova plugin remove // Removes a plugin from the project
+ionic cordova plugin list // Lists the installed plugins
+ionic cordova prepare ios // Prepares the native iOS project
+ionic cordova prepare android // Prepares the native Android project
+ionic cordova compile ios // Compiles the native iOS project
+ionic cordova compile android // Compiles the native Android project
+ionic cordova build ios // Builds the native iOS project
+ionic cordova build android // Builds the native Android project
+ionic cordova run ios // Runs the native iOS project
+ionic cordova run android // Runs the native Android project
+ionic cordova emulate ios // Deploys the native iOS project to an emulator
+ionic cordova emulate android // Deploys the native Android project to an emulator
+ionic cordova platform add ios // Adds the iOS platform to the project
+ionic cordova platform add android // Adds the Android platform to the project
+ionic cordova platform remove ios // Removes the iOS platform from the project
+ionic cordova platform remove android // Removes the Android platform from the project
+ionic cordova plugin add cordova-plugin-camera // Adds the Camera plugin to the project
+ionic cordova plugin add cordova-plugin-geolocation // Adds the Geolocation plugin to the project
+ionic cordova plugin add cordova-plugin-inappbrowser // Adds the InAppBrowser plugin to the project
+ionic cordova plugin add cordova-plugin-splashscreen // Adds the Splashscreen plugin to the project
+ionic cordova plugin add cordova-plugin-statusbar // Adds the Statusbar plugin to the project
+ionic cordova plugin add cordova-plugin-whitelist // Adds the Whitelist plugin to the project
+ionic cordova plugin add cordova-plugin-x-socialsharing // Adds the SocialSharing plugin to the project
+ionic cordova plugin add cordova-plugin-x-toast // Adds the Toast plugin to the project
+ionic cordova plugin add cordova-plugin-x-datepicker // Adds the DatePicker plugin to the project
+ionic cordova plugin add cordova-plugin-x-app-version // Adds the AppVersion plugin to the project
+ionic cordova plugin add cordova-plugin-x-device // Adds the Device plugin to the project
+ionic cordova plugin add cordova-plugin-x-network-information // Adds the NetworkInformation plugin to the project
+ionic cordova plugin add cordova-plugin-x-file // Adds the File plugin to the project
+ionic cordova plugin add cordova-plugin-x-file-transfer // Adds the FileTransfer plugin to the project
+ionic cordova plugin add cordova-plugin-x-media // Adds the Media plugin to the project
+ionic cordova plugin add cordova-plugin-x-media-capture // Adds the MediaCapture plugin to the project
+ionic cordova plugin add cordova-plugin-x-dialogs // Adds the Dialogs plugin to the project
+ionic cordova plugin add cordova-plugin-x-vibration // Adds the Vibration plugin to the project
+ionic cordova plugin add cordova-plugin-x-globalization // Adds the Globalization plugin to the project
+ionic cordova plugin add cordova-plugin-x-contacts // Adds the Contacts plugin to the project
+ionic cordova plugin add cordova-plugin-x-device-motion // Adds the DeviceMotion plugin to the project
+ionic cordova plugin add cordova-plugin-x-device-orientation // Adds the DeviceOrientation plugin to the project
+ionic cordova plugin add cordova-plugin-x-clipboard // Adds the Clipboard plugin to the project
+ionic sync // Syncs the project with the Ionic.io cloud
