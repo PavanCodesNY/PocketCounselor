@@ -1,1 +1,1 @@
-FRONT END development
+FRONT-END development
