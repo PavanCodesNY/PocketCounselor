@@ -7,6 +7,7 @@ const Login: React.FC = () => {
     const doLogin = (e: any) => {
         e.preventDefault();
         console.log("Register");
+        console.log("Hello");
     }
 
     const router = useIonRouter();
