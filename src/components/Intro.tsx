@@ -1,4 +1,4 @@
-import { IonButton, IonContent, IonHeader, IonPage, IonText, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import {Swiper, SwiperSlide, useSwiper} from 'swiper/react';
 import 'swiper/css';
@@ -40,13 +40,21 @@ const Intro: React.FC<ContainerProps> = ({onFinish}) => {
                 </IonText>
                 <SwiperButtonNext> Next </SwiperButtonNext>
             </SwiperSlide>
-            <SwiperSlide>
-                <img src={Intro3} alt = "Slide 3"/>
-                <IonText>
-                    <h3> RANDOM IMAGE THREE</h3>
-                </IonText>
-                <IonButton onClick = {() => onFinish()}> Finish </IonButton>
-                <SwiperPreviousButton> Back </SwiperPreviousButton>
+            {/* Two buttons of the same size side by side use Ion Grid */}
+            <SwiperSlide> 
+                <IonGrid className = 'ion-grid'>
+                    <img src={Intro3} alt = "Slide 3"/>
+                    <IonText>
+                        <h3> RANDOM IMAGE THREE</h3>
+                    </IonText>
+                    <IonRow>
+                        <IonCol>
+                            <IonButton onClick = {() => onFinish()}> Finish </IonButton>
+                        </IonCol>
+                        <IonCol><SwiperPreviousButton> Back </SwiperPreviousButton></IonCol>
+                    </IonRow>
+                </IonGrid>
+                
             </SwiperSlide>
         </Swiper>
     );

@@ -15,3 +15,11 @@
     flex-direction: column;
     text-align: center;
 }
+
+.ion-grid{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
